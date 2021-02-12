@@ -1,0 +1,25 @@
+#meal-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.search-box{
+    text-align: center;
+    padding: 70px;
+}
+.search-box input{
+    height: 25px;
+    width: 150px;
+}
+.meal-div{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+
+}
+.meal-name{
+    font-size: 25px;
+    color: black;
+}
